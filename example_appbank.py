@@ -2,7 +2,7 @@
 
 #Declarando as Variaveis op(operacao) e senha
 op=""
-senha=201803
+senha=2018
 
 #O comando While aparece aqui pra que a mensagem se repita até que o usuario insira o numero 0 ,
 #Ou seja ,assim que a variavel op for igual a zero,o sistema se encerra 
@@ -26,7 +26,7 @@ while op != 0:
 #Como algo normal em app bancario,a variavel fica guardada no sistema pra que quando inserida(caso seja Verdadeira) possibilite 
 #o usuario acessar seus dados com segurança        
   elif op==2:
-     senha=input("insira sua senha:")
+     senha=input("insira sua senha de 4 digitos:")
      if senha==1234:
           print("extrato emitido com sucesso")
      else:
