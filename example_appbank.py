@@ -14,7 +14,7 @@ while op != 0:
      saque=int(input("[1]deseja prosseguir?SIM! /n [0]NAO,Cancelar /n:"))
      if saque==1:
        senha=int(input("insira sua senha de 4 digitos:"))
-       if senha==1234:
+       if senha==2018:
           print("saque sendo efetuado...")
           print("concluido com sucesso")
        else:
@@ -27,7 +27,7 @@ while op != 0:
 #o usuario acessar seus dados com segurança        
   elif op==2:
      senha=input("insira sua senha de 4 digitos:")
-     if senha==1234:
+     if senha==2018:
           print("extrato emitido com sucesso")
      else:
           print("senha invalida,tente novamente mais tarde ") 
