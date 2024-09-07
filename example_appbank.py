@@ -1,4 +1,4 @@
-#Exemplificação de um app Bancario utilizando conhecimentos como comando While,If,print e input
+a#Exemplificação de um app Bancario utilizando conhecimentos como comando While,If,print e input
 
 #Declarando as Variaveis op(operacao) e senha
 op=""
@@ -23,7 +23,7 @@ while op != 0:
           print("retornando ao menu")
    
 
-#Como algo normal em app bancario,a variavel fica guardada no sistema pra que quando inserida(caso seja Verdadeira) possibilite 
+#Como algo normal em app bancario,a variavel senha fica guardada no sistema pra que quando inserida(caso seja Verdadeira) possibilite 
 #o usuario acessar seus dados com segurança        
   elif op==2:
      senha=input("insira sua senha de 4 digitos:")
