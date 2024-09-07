@@ -1,4 +1,4 @@
-a#Exemplificação de um app Bancario utilizando conhecimentos como comando While,If,print e input
+#Exemplificação de um app Bancario utilizando conhecimentos como comando While,If,print e input
 
 #Declarando as Variaveis op(operacao) e senha
 op=""
