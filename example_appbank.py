@@ -19,14 +19,13 @@ while op != 0:
           print("concluido com sucesso")
        else:
           print("senha invalida,nao podemos prosseguir ") 
-  elif saque==0:
-          print("retornando ao menu")
+
    
 
 #Como algo normal em app bancario,a variavel senha fica guardada no sistema pra que quando inserida(caso seja Verdadeira) possibilite 
 #o usuario acessar seus dados com segurança        
   elif op==2:
-     senha=input("insira sua senha de 4 digitos:")
+     senha=int(input("insira sua senha de 4 digitos:"))
      if senha==2018:
           print("extrato emitido com sucesso")
      else:
